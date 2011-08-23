@@ -1,0 +1,3 @@
+[submodule "SoundCloudAPI"]
+	path = SoundCloudAPI
+	url = https://github.com/soundcloud/CocoaSoundCloudAPI.git

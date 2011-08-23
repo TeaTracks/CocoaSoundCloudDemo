@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65B1BC41403BF7A00699322 /* libSoundCloudAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F65B1BC21403BF7400699322 /* libSoundCloudAPI.a */; };
+		F65B1BC61403BF9600699322 /* SoundCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F65B1BC51403BF9600699322 /* SoundCloud.bundle */; };
+		F69EA06013EC04E50050BF4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA05F13EC04E50050BF4C /* UIKit.framework */; };
+		F69EA06213EC04E50050BF4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA06113EC04E50050BF4C /* Foundation.framework */; };
+		F69EA06413EC04E50050BF4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA06313EC04E50050BF4C /* CoreGraphics.framework */; };
+		F69EA06A13EC04E50050BF4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F69EA06813EC04E50050BF4C /* InfoPlist.strings */; };
+		F69EA06C13EC04E50050BF4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EA06B13EC04E50050BF4C /* main.m */; };
+		F69EA07013EC04E50050BF4C /* SoundShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EA06F13EC04E50050BF4C /* SoundShareAppDelegate.m */; };
+		F69EA07413EC04E60050BF4C /* SoundShareAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EA07313EC04E60050BF4C /* SoundShareAppDelegate_iPhone.m */; };
+		F69EA07713EC04E60050BF4C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69EA07513EC04E60050BF4C /* MainWindow_iPhone.xib */; };
+		F69EA07B13EC04E60050BF4C /* SoundShareAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EA07A13EC04E60050BF4C /* SoundShareAppDelegate_iPad.m */; };
+		F69EA07E13EC04E60050BF4C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69EA07C13EC04E60050BF4C /* MainWindow_iPad.xib */; };
+		F69EA09B13EC05D20050BF4C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA09A13EC05D20050BF4C /* Security.framework */; };
+		F69EA09D13EC05DA0050BF4C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA09C13EC05DA0050BF4C /* AudioToolbox.framework */; };
+		F69EA0A113EC06580050BF4C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA0A013EC06580050BF4C /* CoreLocation.framework */; };
+		F69EA0A413EC06780050BF4C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA0A213EC06780050BF4C /* AddressBook.framework */; };
+		F69EA0A513EC06780050BF4C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA0A313EC06780050BF4C /* AddressBookUI.framework */; };
+		F69EA0A713EC06950050BF4C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA0A613EC06950050BF4C /* QuartzCore.framework */; };
+		F69EA0B913EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F69EA0B813EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav */; };
+		F69EA0BC13EC284F0050BF4C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EA0BB13EC284F0050BF4C /* RootViewController.m */; };
+		F6EE630B13F50AB800D6E509 /* darkTexturedBackgroundPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE630913F50AB800D6E509 /* darkTexturedBackgroundPattern.png */; };
+		F6EE630C13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE630A13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F65B1BBB1403BF7300699322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SoundCloudAPI;
+		};
+		F65B1BBF1403BF7400699322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94535F86123FAFDF00BD668A;
+			remoteInfo = SoundCloudAPI.framework;
+		};
+		F65B1BC11403BF7400699322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = SoundCloudAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F65B1BC51403BF9600699322 /* SoundCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SoundCloud.bundle; path = ../SoundCloudAPI/Outsourced/SoundCloudUI/SoundCloud.bundle; sourceTree = "<group>"; };
+		F69EA05B13EC04E50050BF4C /* SoundShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69EA05F13EC04E50050BF4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F69EA06113EC04E50050BF4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F69EA06313EC04E50050BF4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F69EA06713EC04E50050BF4C /* SoundShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundShare-Info.plist"; sourceTree = "<group>"; };
+		F69EA06913EC04E50050BF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F69EA06B13EC04E50050BF4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69EA06D13EC04E50050BF4C /* SoundShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundShare-Prefix.pch"; sourceTree = "<group>"; };
+		F69EA06E13EC04E50050BF4C /* SoundShareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundShareAppDelegate.h; sourceTree = "<group>"; };
+		F69EA06F13EC04E50050BF4C /* SoundShareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundShareAppDelegate.m; sourceTree = "<group>"; };
+		F69EA07213EC04E50050BF4C /* SoundShareAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoundShareAppDelegate_iPhone.h; path = iPhone/SoundShareAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F69EA07313EC04E60050BF4C /* SoundShareAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SoundShareAppDelegate_iPhone.m; path = iPhone/SoundShareAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		F69EA07613EC04E60050BF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		F69EA07913EC04E60050BF4C /* SoundShareAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoundShareAppDelegate_iPad.h; path = iPad/SoundShareAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F69EA07A13EC04E60050BF4C /* SoundShareAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SoundShareAppDelegate_iPad.m; path = iPad/SoundShareAppDelegate_iPad.m; sourceTree = "<group>"; };
+		F69EA07D13EC04E60050BF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		F69EA09813EC05C40050BF4C /* libOAuth2Client.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuth2Client.a; path = "SoundCloudAPI/Outsourced/OAuth2Client/build/Release-iphoneos/libOAuth2Client.a"; sourceTree = "<group>"; };
+		F69EA09A13EC05D20050BF4C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F69EA09C13EC05DA0050BF4C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F69EA0A013EC06580050BF4C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F69EA0A213EC06780050BF4C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F69EA0A313EC06780050BF4C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F69EA0A613EC06950050BF4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F69EA0B813EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1375_sleep_90_bpm_nylon2.wav; sourceTree = "<group>"; };
+		F69EA0BA13EC284F0050BF4C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F69EA0BB13EC284F0050BF4C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoundCloudAPI.xcodeproj; path = SoundCloudAPI/SoundCloudAPI.xcodeproj; sourceTree = "<group>"; };
+		F6EE630913F50AB800D6E509 /* darkTexturedBackgroundPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkTexturedBackgroundPattern.png; sourceTree = "<group>"; };
+		F6EE630A13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darkTexturedBackgroundPattern@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69EA05813EC04E50050BF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65B1BC41403BF7A00699322 /* libSoundCloudAPI.a in Frameworks */,
+				F69EA0A713EC06950050BF4C /* QuartzCore.framework in Frameworks */,
+				F69EA0A413EC06780050BF4C /* AddressBook.framework in Frameworks */,
+				F69EA0A513EC06780050BF4C /* AddressBookUI.framework in Frameworks */,
+				F69EA0A113EC06580050BF4C /* CoreLocation.framework in Frameworks */,
+				F69EA09D13EC05DA0050BF4C /* AudioToolbox.framework in Frameworks */,
+				F69EA09B13EC05D20050BF4C /* Security.framework in Frameworks */,
+				F69EA06013EC04E50050BF4C /* UIKit.framework in Frameworks */,
+				F69EA06213EC04E50050BF4C /* Foundation.framework in Frameworks */,
+				F69EA06413EC04E50050BF4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F678278D13F94BE900CACABE /* Outsourced */ = {
+			isa = PBXGroup;
+			children = (
+				F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */,
+			);
+			name = Outsourced;
+			sourceTree = "<group>";
+		};
+		F69EA05013EC04E50050BF4C = {
+			isa = PBXGroup;
+			children = (
+				F678278D13F94BE900CACABE /* Outsourced */,
+				F69EA06513EC04E50050BF4C /* SoundShare */,
+				F69EA05E13EC04E50050BF4C /* Frameworks */,
+				F69EA05C13EC04E50050BF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69EA05C13EC04E50050BF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69EA05B13EC04E50050BF4C /* SoundShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69EA05E13EC04E50050BF4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69EA09813EC05C40050BF4C /* libOAuth2Client.a */,
+				F69EA0A613EC06950050BF4C /* QuartzCore.framework */,
+				F69EA0A213EC06780050BF4C /* AddressBook.framework */,
+				F69EA0A313EC06780050BF4C /* AddressBookUI.framework */,
+				F69EA0A013EC06580050BF4C /* CoreLocation.framework */,
+				F69EA09C13EC05DA0050BF4C /* AudioToolbox.framework */,
+				F69EA09A13EC05D20050BF4C /* Security.framework */,
+				F69EA05F13EC04E50050BF4C /* UIKit.framework */,
+				F69EA06113EC04E50050BF4C /* Foundation.framework */,
+				F69EA06313EC04E50050BF4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69EA06513EC04E50050BF4C /* SoundShare */ = {
+			isa = PBXGroup;
+			children = (
+				F65B1BC51403BF9600699322 /* SoundCloud.bundle */,
+				F6EE630913F50AB800D6E509 /* darkTexturedBackgroundPattern.png */,
+				F6EE630A13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png */,
+				F69EA0B813EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav */,
+				F69EA06E13EC04E50050BF4C /* SoundShareAppDelegate.h */,
+				F69EA06F13EC04E50050BF4C /* SoundShareAppDelegate.m */,
+				F69EA0BA13EC284F0050BF4C /* RootViewController.h */,
+				F69EA0BB13EC284F0050BF4C /* RootViewController.m */,
+				F69EA07113EC04E50050BF4C /* iPhone */,
+				F69EA07813EC04E60050BF4C /* iPad */,
+				F69EA06613EC04E50050BF4C /* Supporting Files */,
+			);
+			path = SoundShare;
+			sourceTree = "<group>";
+		};
+		F69EA06613EC04E50050BF4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69EA06713EC04E50050BF4C /* SoundShare-Info.plist */,
+				F69EA06813EC04E50050BF4C /* InfoPlist.strings */,
+				F69EA06B13EC04E50050BF4C /* main.m */,
+				F69EA06D13EC04E50050BF4C /* SoundShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F69EA07113EC04E50050BF4C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F69EA07213EC04E50050BF4C /* SoundShareAppDelegate_iPhone.h */,
+				F69EA07313EC04E60050BF4C /* SoundShareAppDelegate_iPhone.m */,
+				F69EA07513EC04E60050BF4C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		F69EA07813EC04E60050BF4C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F69EA07913EC04E60050BF4C /* SoundShareAppDelegate_iPad.h */,
+				F69EA07A13EC04E60050BF4C /* SoundShareAppDelegate_iPad.m */,
+				F69EA07C13EC04E60050BF4C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		F6C465041403BF5E00ACC080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65B1BC01403BF7400699322 /* SoundCloudAPI.framework */,
+				F65B1BC21403BF7400699322 /* libSoundCloudAPI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69EA05A13EC04E50050BF4C /* SoundShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69EA08113EC04E60050BF4C /* Build configuration list for PBXNativeTarget "SoundShare" */;
+			buildPhases = (
+				F69EA05713EC04E50050BF4C /* Sources */,
+				F69EA05813EC04E50050BF4C /* Frameworks */,
+				F69EA05913EC04E50050BF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65B1BBC1403BF7300699322 /* PBXTargetDependency */,
+			);
+			name = SoundShare;
+			productName = SoundShare;
+			productReference = F69EA05B13EC04E50050BF4C /* SoundShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69EA05213EC04E50050BF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = nxtbgthng;
+			};
+			buildConfigurationList = F69EA05513EC04E50050BF4C /* Build configuration list for PBXProject "SoundShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F69EA05013EC04E50050BF4C;
+			productRefGroup = F69EA05C13EC04E50050BF4C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F6C465041403BF5E00ACC080 /* Products */;
+					ProjectRef = F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F69EA05A13EC04E50050BF4C /* SoundShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F65B1BC01403BF7400699322 /* SoundCloudAPI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SoundCloudAPI.framework;
+			remoteRef = F65B1BBF1403BF7400699322 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F65B1BC21403BF7400699322 /* libSoundCloudAPI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSoundCloudAPI.a;
+			remoteRef = F65B1BC11403BF7400699322 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69EA05913EC04E50050BF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69EA06A13EC04E50050BF4C /* InfoPlist.strings in Resources */,
+				F69EA07713EC04E60050BF4C /* MainWindow_iPhone.xib in Resources */,
+				F69EA07E13EC04E60050BF4C /* MainWindow_iPad.xib in Resources */,
+				F69EA0B913EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav in Resources */,
+				F6EE630B13F50AB800D6E509 /* darkTexturedBackgroundPattern.png in Resources */,
+				F6EE630C13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png in Resources */,
+				F65B1BC61403BF9600699322 /* SoundCloud.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69EA05713EC04E50050BF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69EA06C13EC04E50050BF4C /* main.m in Sources */,
+				F69EA07013EC04E50050BF4C /* SoundShareAppDelegate.m in Sources */,
+				F69EA07413EC04E60050BF4C /* SoundShareAppDelegate_iPhone.m in Sources */,
+				F69EA07B13EC04E60050BF4C /* SoundShareAppDelegate_iPad.m in Sources */,
+				F69EA0BC13EC284F0050BF4C /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F65B1BBC1403BF7300699322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundCloudAPI;
+			targetProxy = F65B1BBB1403BF7300699322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69EA06813EC04E50050BF4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69EA06913EC04E50050BF4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F69EA07513EC04E60050BF4C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69EA07613EC04E60050BF4C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F69EA07C13EC04E60050BF4C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69EA07D13EC04E60050BF4C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69EA07F13EC04E60050BF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tobias Kräntzer (9DJDR8GAQA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PROVISIONING_PROFILE = "3095135F-924F-418D-8329-A94A18B2784F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "SoundCloudAPI/**";
+			};
+			name = Debug;
+		};
+		F69EA08013EC04E60050BF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tobias Kräntzer (9DJDR8GAQA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PROVISIONING_PROFILE = "3095135F-924F-418D-8329-A94A18B2784F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "SoundCloudAPI/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69EA08213EC04E60050BF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundShare/SoundShare-Prefix.pch";
+				INFOPLIST_FILE = "SoundShare/SoundShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F69EA08313EC04E60050BF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundShare/SoundShare-Prefix.pch";
+				INFOPLIST_FILE = "SoundShare/SoundShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69EA05513EC04E50050BF4C /* Build configuration list for PBXProject "SoundShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69EA07F13EC04E60050BF4C /* Debug */,
+				F69EA08013EC04E60050BF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69EA08113EC04E60050BF4C /* Build configuration list for PBXNativeTarget "SoundShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69EA08213EC04E60050BF4C /* Debug */,
+				F69EA08313EC04E60050BF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69EA05213EC04E50050BF4C /* Project object */;
+}
