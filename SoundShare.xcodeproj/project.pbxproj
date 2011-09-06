@@ -27,6 +27,7 @@
 		F69EA0A713EC06950050BF4C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EA0A613EC06950050BF4C /* QuartzCore.framework */; };
 		F69EA0B913EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F69EA0B813EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav */; };
 		F69EA0BC13EC284F0050BF4C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EA0BB13EC284F0050BF4C /* RootViewController.m */; };
+		F69FA35C14163135007AB53A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69FA35B14163135007AB53A /* CoreText.framework */; };
 		F6EE630B13F50AB800D6E509 /* darkTexturedBackgroundPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE630913F50AB800D6E509 /* darkTexturedBackgroundPattern.png */; };
 		F6EE630C13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE630A13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png */; };
 /* End PBXBuildFile section */
@@ -83,6 +84,7 @@
 		F69EA0B813EC09090050BF4C /* 1375_sleep_90_bpm_nylon2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1375_sleep_90_bpm_nylon2.wav; sourceTree = "<group>"; };
 		F69EA0BA13EC284F0050BF4C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F69EA0BB13EC284F0050BF4C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F69FA35B14163135007AB53A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		F6C465031403BF5E00ACC080 /* SoundCloudAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoundCloudAPI.xcodeproj; path = SoundCloudAPI/SoundCloudAPI.xcodeproj; sourceTree = "<group>"; };
 		F6EE630913F50AB800D6E509 /* darkTexturedBackgroundPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkTexturedBackgroundPattern.png; sourceTree = "<group>"; };
 		F6EE630A13F50AB800D6E509 /* darkTexturedBackgroundPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darkTexturedBackgroundPattern@2x.png"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69FA35C14163135007AB53A /* CoreText.framework in Frameworks */,
 				F65B1BC41403BF7A00699322 /* libSoundCloudAPI.a in Frameworks */,
 				F69EA0A713EC06950050BF4C /* QuartzCore.framework in Frameworks */,
 				F69EA0A413EC06780050BF4C /* AddressBook.framework in Frameworks */,
@@ -148,6 +151,7 @@
 				F69EA05F13EC04E50050BF4C /* UIKit.framework */,
 				F69EA06113EC04E50050BF4C /* Foundation.framework */,
 				F69EA06313EC04E50050BF4C /* CoreGraphics.framework */,
+				F69FA35B14163135007AB53A /* CoreText.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
