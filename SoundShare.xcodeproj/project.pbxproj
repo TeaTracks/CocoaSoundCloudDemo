@@ -241,6 +241,7 @@
 		F69EA05213EC04E50050BF4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = nxtbgthng;
 			};
 			buildConfigurationList = F69EA05513EC04E50050BF4C /* Build configuration list for PBXProject "SoundShare" */;

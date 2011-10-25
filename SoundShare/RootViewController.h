@@ -11,5 +11,6 @@
 @interface RootViewController : UIViewController
 
 - (IBAction)shareToSoundCloud:(id)sender;
+- (IBAction)login:(id)sender;
 
 @end

@@ -21,7 +21,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
 {
-    return YES;
+    return interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown;
 }
 
 #pragma mark Actions
@@ -47,6 +47,29 @@
     [shareViewController setTags:[NSArray arrayWithObject:@"foo:bar=baz"]];
     
     [self presentModalViewController:shareViewController animated:YES];
+}
+
+- (IBAction)login:(id)sender;
+{
+    [SCSoundCloud requestAccessWithPreparedAuthorizationURLHandler:^(NSURL *preparedURL){
+        
+        SCLoginViewController *loginViewController;
+        loginViewController = [SCLoginViewController loginViewControllerWithPreparedURL:preparedURL
+                                                                      completionHandler:^(NSError *error){
+                                                                          
+                                                                          if (SC_CANCELED(error)) {
+                                                                              NSLog(@"Canceled!");
+                                                                          } else if (error) {
+                                                                              NSLog(@"Ooops, something went wrong: %@", [error localizedDescription]);
+                                                                          } else {
+                                                                              NSLog(@"Done!");
+                                                                          }
+                                                                      }];
+        
+        [self presentModalViewController:loginViewController
+                                animated:YES];
+        
+    }];
 }
 
 @end
