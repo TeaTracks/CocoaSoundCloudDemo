@@ -45,6 +45,7 @@
                                                                                      }];
     
     [shareViewController setTags:[NSArray arrayWithObject:@"foo:bar=baz"]];
+    [shareViewController setSharingNote:@"Juhuuu!"];
     
     [self presentModalViewController:shareViewController animated:YES];
 }
