@@ -20,8 +20,10 @@
     // Configure NXOAuth2AccountStore for 'com.soundcloud.api'
     // -------------------------------------------------------
     
-    [SCSoundCloud  setClientID:@"6770c1811fd2d6ef1c982ee685339681"
-                        secret:@"bd4abff2925d068c6a5806613b7842ba"
+    NSAssert(nil, @"Go to http://soundcloud.com/you/apps and register your app.");
+    
+    [SCSoundCloud  setClientID:@"xXxXxXxXxXxXxXxXxXxXxXxXxXxX"
+                        secret:@"xXxXxXxXxXxXxXxXxXxXxXxXxXxX"
                    redirectURL:[NSURL URLWithString:@"soundshare://soundcloud"]];
 }
 
